@@ -13,12 +13,12 @@ h3,p, ul, li {
     font-size: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Dancing Script', 'sans-serif';
-    color: palevioletred;
+    color: lightyellow;
     text-align: center;
 }
 
 span {
-    color:lightyellow;
+    color: red;
 }
 
 @media (min-width: 576px) {
