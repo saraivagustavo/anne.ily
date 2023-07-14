@@ -9,16 +9,21 @@ body {
     padding: 20px;
 }
 
+.aviso {
+    font-size: 18px;
+    font-family: none;
+}
+
 h3,p, ul, li {
     font-size: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Dancing Script', 'sans-serif';
-    color: lightyellow;
+    color: white;
     text-align: center;
 }
 
 span {
-    color: red;
+    color: hotpink;
 }
 
 @media (min-width: 576px) {

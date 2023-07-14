@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+body {
+    background-color: cornflowerblue;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="password"] {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Tektur', sans-serif;
+    cursor: pointer;
+}
+
+p {
+    font-size: 26px;
+    font-family: 'Tektur', sans-serif;
+}
+
+h2 {
+    font-family: 'Tektur', sans-serif;
+}
+
+@media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+}
